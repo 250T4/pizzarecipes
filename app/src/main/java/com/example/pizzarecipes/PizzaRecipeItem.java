@@ -5,11 +5,14 @@ public class PizzaRecipeItem {
     private int imageResourse;
     private String title;
     private String description;
+    private String recipe;
 
-    public PizzaRecipeItem(int imageResourse, String title, String description) {
+    public PizzaRecipeItem(int imageResourse, String title, String description,
+                           String recipe) {
         this.imageResourse = imageResourse;
         this.title = title;
         this.description = description;
+
     }
 
     public int getImageResourse() {
@@ -22,5 +25,9 @@ public class PizzaRecipeItem {
 
     public String getDescription() {
         return description;
+    }
+
+    public String getRecipe(){
+        return recipe;
     }
 }
