@@ -12,6 +12,7 @@ public class PizzaRecipeItem {
         this.imageResourse = imageResourse;
         this.title = title;
         this.description = description;
+        this.recipe = recipe;
 
     }
 
